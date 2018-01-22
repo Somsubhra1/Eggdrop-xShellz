@@ -1,0 +1,80 @@
+[
+ {
+ "placeholder":"Enter Eggdrop Admin Name.",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "adminame"
+ },
+ {
+ "placeholder":"Enter Eggdrop Real Name.",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "realname"
+ },
+ {
+ "placeholder":"Enter Eggdrop Bot Nick.",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "eggnick"
+ },
+ {
+ "placeholder":"Enter IRC Server (Example: irc.freenode.net).",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "ircserver"
+ },
+ {
+ "placeholder":"Enter IRC Port.",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "ircport"
+ },
+ {
+ "placeholder":"Enter channel name starting with # (Example #xShellz).",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "channel"
+ },
+ {
+ "placeholder":"Enter Owner Nick",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "ownernick"
+ },
+ {
+ "placeholder":"Enter Telnet port. (You can get a free port by typing freeport on your shell.)",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "telport"
+ },
+{
+ "placeholder":"Enter Host name (To get it please visit https://www.xshellz.com/vhosts ).",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "hostname"
+ },
+ {
+ "placeholder":"Enter Host IP (To get it please visit https://www.xshellz.com/vhosts ).",
+ "format":"string",
+ "type": "text",
+ "isMandatory": true,
+ "name": "hostip"
+ },
+ {
+ "placeholder":"Starts your bot",
+ "format":"button",
+ "type": "submit",
+ "isMandatory": "true",
+ "name" : "submit",
+ "value": "Launch Eggdrop now"
+ }
+]
